@@ -34,7 +34,7 @@ const tabla1 = document.querySelector('#tabla1');
 
 function listar() {
 
-    while (tabla1.children.length > 1) {
+    while (tabla1.children.length > 0) {
         tabla1.removeChild(tabla1.lastChild);
     }
 
